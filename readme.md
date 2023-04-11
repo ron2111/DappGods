@@ -24,3 +24,14 @@
   - `utils` has the `onboard.js` & `animation.js` files.
     onboard.js helps in powering up the `OnboardModal.jsx` modal.
     animation.js helps in getting the 8-bit animation which will be used in the game (taken from codepen) when the player's cards are attacked.
+
+For styles there is an index.js file that contains tailwind styles.
+
+- Higher Order Components
+`PageHOC.jsx`: Page Higher Order Component FILE
+Its sort of a wrapper and all other components are displayed within it.
+
+-Same as Home.jsx, Create Battle page is also wrapped by PageHOC with different title and description props
+
+-Created an `index.js` file to handle he import/exports from `page` folder
+
